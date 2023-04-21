@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   text-align: center;
+   justify-content: center;
+    min-height: 70px;
+    
+    background-color: yellow;
+}
+
+.color-flipper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.simple-hex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
