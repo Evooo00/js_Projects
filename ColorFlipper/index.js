@@ -12,7 +12,11 @@ button.addEventListener("click", function(){
     let end_color = "#";
 
     for(let i = 0; i < 6; i++){
-        console.log(randomNumber());
+        //console.log(randomNumber());
+
+        end_color += colors[randomNumber()];
+        console.log(end_color);
     }
+    
 
 });
