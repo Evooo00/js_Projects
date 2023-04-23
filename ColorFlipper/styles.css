@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    
 }
 
 .nav-bar{
@@ -10,18 +11,20 @@ body{
    justify-content: center;
     min-height: 70px;
     
-    background-color: yellow;
+    
 }
 
 .color-flipper{
     display: flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: 3px;
 }
 .simple-hex{
     display: flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: 5;
 }
 
 main{
@@ -36,6 +39,6 @@ main{
 }
 
 h2{
-    
+
 }
 
