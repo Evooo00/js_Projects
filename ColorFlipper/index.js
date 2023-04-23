@@ -1,3 +1,4 @@
+
 const colors = ["red", "blue", "purple", "green"];
 
 let button = document.getElementById("switcher_button");
