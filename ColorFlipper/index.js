@@ -1,4 +1,4 @@
-const colors = [1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+const colors = ["red", "blue", "purple", "green"];
 
 let button = document.getElementById("switcher_button");
 let b_color = document.getElementById("background_color");
@@ -9,17 +9,21 @@ function randomNumber(){
 button.addEventListener("click", function(){
     //console.log("test");
 
-    let end_color = "#";
+    let end_color = colors[randomNumber()];
 
-    for(let i = 0; i < 6; i++){
-        //console.log(randomNumber());
-
-        end_color += colors[randomNumber()];
-        //console.log(end_color);
-    }
+    
 
     b_color.textContent = end_color;
     document.body.style.backgroundColor = end_color;
     button.style.backgroundColor = end_color;
 
+});
+
+button.addEventListener('mouseover', function(){
+
+    button.style.backgroundColor = "black";
+});
+button.addEventListener('mouseout', function(){
+
+    button.style.backgroundColor = "initial";
 });

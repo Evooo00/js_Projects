@@ -23,3 +23,12 @@ button.addEventListener("click", function(){
     button.style.backgroundColor = end_color;
 
 });
+
+button.addEventListener('mouseover', function(){
+
+    button.style.backgroundColor = "black";
+});
+button.addEventListener('mouseout', function(){
+
+    button.style.backgroundColor = "initial";
+});
