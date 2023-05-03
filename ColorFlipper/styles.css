@@ -5,7 +5,7 @@ body{
     font-family: monospace;
 }
 
-.nav-bar{
+.navBar{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    text-align: center;
@@ -15,14 +15,14 @@ body{
     
 }
 
-.color-flipper{
+.colorFlipper{
     display: flex;
     align-items: center;
     justify-content: center;
     letter-spacing: 3px;
     color: rgb(116, 175, 195);
 }
-.simple-hex{
+.simpleHex{
     display: flex;
     align-items: center;
     justify-content: center;
