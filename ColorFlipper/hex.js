@@ -1,4 +1,6 @@
 
+
+
 function changingBackgroundColor(){
     function randomNumber(){
         return Math.floor(Math.random() * arrayOfHexChars.length);
