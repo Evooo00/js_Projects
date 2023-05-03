@@ -1,60 +1,35 @@
 
+const threeButtons = document.querySelectorAll(".buttons");
+const counterNumber = document.querySelector("#number");
+let count = 0;
 
-let x = 0;
-
-
-const number = document.getElementById("number");
-const decrease = document.getElementById("decrease");
-const reset = document.getElementById("reset");
-const increase = document.getElementById("increase");
-
-decrease.addEventListener("click", function(){
-    x -= 1;
-    number.textContent = x;
-
-    if(x < 0){
-        number.style.color = "red";
+threeButtons.forEach(function (btn){
+    btn.addEventListener("click", function(item){
+        //console.log(item.currentTarget.classList);
+    clickedButton = item.currentTarget.classList;
+    if(clickedButton.contains("decrease")){
+        //console.log("dziala");
+        count -= 1;
+        counterNumber.textContent = count;
+        
     }
-    if(x == 0){
-        number.style.color = "black";
+    else if(clickedButton.contains("reset")){
+        count = 0;
+        counterNumber.textContent = count;
     }
-});
-reset.addEventListener("click", function(){
-    x = 0;
-    number.textContent = x;
-    
-    number.style.color = "black";
-    
-});
-increase.addEventListener("click", function(){
-    x += 1;
-    number.textContent = x;
-    if(x > 0){
-        number.style.color = "green";
+    else if(clickedButton.contains("increase")){
+        count += 1;
+        counterNumber.textContent = count;
     }
-    if(x == 0){
-        number.style.color = "black";
+
+    if(count > 0){
+        counterNumber.style.color = "green";
     }
-});
-
-
-
-/*
-const number = document.querySelector("#number");
-const buttons = document.querySelectorAll("#buttons");
-
-
-
-buttons.forEach(function(button){
-    button.addEventListener("click", function(smth){
-        console.log("smth");
+    else if(count < 0){
+        counterNumber.style.color = "red";
+    }
+    else{
+        counterNumber.style.color = "black";
+    }
     });
-
-    
 });
-
-*/
-
-
-
-
