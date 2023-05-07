@@ -2,7 +2,8 @@
 function changingBackgroundColor(){
     
     const arrayWithColors = ['red', 'blue', 'green', 'orange'];
-    const textWithBackgroundColor = document.querySelector("#backgroundColor");
+    if(arrayWithColors.length > 0){
+        const textWithBackgroundColor = document.querySelector("#backgroundColor");
     const button = document.querySelector(".btn");
 
     function randomNumberOfArray(){
@@ -14,6 +15,11 @@ function changingBackgroundColor(){
     textWithBackgroundColor.textContent = generatedRandomColor;
     document.body.style.backgroundColor = generatedRandomColor;
     button.style.backgroundColor = generatedRandomColor;
+    }
+    else{
+        console.log("Empty array");
+    }
+    
 }
 
 
