@@ -1,0 +1,41 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+nav{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+   
+}
+
+.navHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    letter-spacing: 5px;
+}
+li:hover{
+    background-color: lightblue;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 10px;
+}
+.links{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s linear;
+}
+.showLinks{
+    height: 10rem;
+}
