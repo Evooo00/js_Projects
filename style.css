@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.container{
+    height: 100ch;
+    display: flex;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin: 0;
+    font-size: 34px;
+}
+h6{
+    margin: 0;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(44, 174, 239);
+    border: none;
+}
+img{
+    width: 160px;
+    height: 160px;
+    border: 6px solid rgb(44, 174, 239);
+    border-radius: 50%;
+    
+}
+.job{
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(44, 174, 239);
+    font-size: 18px;
+    
+}
+.review{
+    padding-top: 20px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 5%;
+    min-width: 40rem;
+    min-height: 28rem;
+    box-shadow: 1px 1px 5px lightblue;
+    
+}
+.opinion{
+     max-width: 35rem;
+     text-align: center;
+     font-size: 18px;
+     color: rgb(74, 143, 167);
+}
+.leftButton, .rightButton{
+    background: none;
+    border: none;
+}
+.fas{
+    font-size: 20px;
+    color: lightblue;
+}
+.surpriseButton{
+    margin: 15px;
+}
+.surprise{
+    min-height: 30px;
+    border: 2px solid rgb(52, 170, 209);
+    border-radius: 10px;
+    color: rgb(52, 170, 209);
+    font-size: 15px;
+    background: none;
+    
+}
