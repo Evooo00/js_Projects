@@ -56,15 +56,16 @@ h1{
     background-color: white;
     box-shadow: 5px 5px 30px grey;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+    
 }
 .modalCloseButton{
     position: absolute;
-    top: 37%;
-    right:32%;
+    top: 1rem;
+    right: 1rem;
     background: none;
     border: none;
     color: red;
@@ -75,4 +76,5 @@ h1{
 .showModalContent{
     visibility: visible;
 }
+
 
