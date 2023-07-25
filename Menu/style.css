@@ -32,6 +32,7 @@ button{
     color: rgb(210, 120, 71);
     box-shadow: 1px 1px black;
     margin: 0 5px;
+    cursor: pointer;
 }
 .photoOfDinner{
     width: 250px;
