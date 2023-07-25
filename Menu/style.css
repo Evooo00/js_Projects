@@ -1,0 +1,78 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(245, 249, 249);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titleText{
+    margin-bottom: 0;
+}
+.lineUnderTitle{
+    border: 1px solid rgb(210, 120, 71);
+    width: 60px;
+}
+
+.filter{
+    margin: 20px;
+}
+button{
+    border: 1px solid rgb(210, 120, 71);
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: rgb(210, 120, 71);
+    box-shadow: 1px 1px black;
+    margin: 0 5px;
+}
+.photoOfDinner{
+    width: 250px;
+    border: 3px solid rgb(210, 120, 71);
+    border-radius: 10px;
+}
+
+.dinners{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.dinner{
+    display: flex;
+    width: 600px;
+    
+    justify-content: space-between;
+}
+
+.dinnerInformation{
+    width: 55%;
+    
+    
+}
+.nameAndPrice{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.price{
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(210, 120, 71);
+}
+
+.dinnerLine{
+    border: 1px rgb(214, 211, 211) solid;
+}
+.info{
+    color: rgb(174, 171, 171);
+}
