@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -23,6 +27,10 @@ h1{
     font-size: 72px;
     margin: 5px;
     
+}
+a{
+    text-decoration: none;
+   color: white;
 }
 
 .linksContainer{
@@ -77,9 +85,22 @@ p{
 }
 
 
-.scrolledNavBar{
-    position: fixed;
+.scrolledNavBar {
+    position: fixed; 
     width: 100%;
     background-color: white;
     color: black;
+    
 }
+.scrolledNavBar2 a{
+    
+    color: black;
+    
+}
+
+
+
+
+
+
+
