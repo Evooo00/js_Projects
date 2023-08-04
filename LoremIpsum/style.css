@@ -38,3 +38,13 @@ p{
     border: none;
     font-size: 20px;
 }
+
+.generatedParagraphs{
+    width: 60%;
+    text-align: center;
+    
+}
+.generatingText{
+    font-size: 15px;
+    color: rgb(0,0,0,0.5);
+}
