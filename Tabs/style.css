@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    height: 100%;
+    font-family: Arial;
+}
+
+.centerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.container{
+    
+    background-color: aliceblue;
+    width: 500px;
+    min-height: 300px;
+    
+}
+
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    letter-spacing: 5px;
+    
+    
+}
+.tab{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h4{
+    letter-spacing: 4px;
+}
+
+p{
+    color: rgb(0,0,0,0.5);
+
+}
+
+.content{
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+    line-height: 20px;
+}
+
+.displayTab{
+    display: none;
+
+}
+
+.whichTabClicked{
+    background-color: white;
+}
+
