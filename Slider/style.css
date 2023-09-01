@@ -28,6 +28,7 @@ body{
     border-radius: 5px;
     display: grid;
     place-items: center;
+   transition: 500ms ease-in-out;
    
 }
 .numberOfSlide{
